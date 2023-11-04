@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Profissional - Danillo Marcello</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33217eb556.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Engenharia Elétrica</p>
+            <h1>Olá, Eu sou <span>Danillo Gouveia</span></h1>
+        </div>
+    </div>
+</div>
+<div id="Sobre">
+    <div class="container">
+        <div class="row">
+            <div class="Sobre-col-1">
+                <img src="imagens/WhatsApp Image 2023-11-02 at 09.50.44.jpeg">
+            </div>
+            <div class="Sobre-col-2">
+                <h1 class="sub-title">Sobre Mim:</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" >Experiências</p>
+                    <p class="tab-links" onclick="opentab('education')">Formações</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>EE</span><br>Electrical Design Engineer<br></li>
+                        <li><span>BIM</span><br>Autocad / Dialux Developer<br></li>
+                        <li><span>PY</span><br> Python Programmer - Intermediate<br></li>
+                        <li><span>OP</span><br> Excel Skills <br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Atualmente</span><br>Análista Projetos Elétricos - Potencialize Consultoria Jr. <br></li>
+                        <li><span>2020 - 2021</span><br>Auxiliar Administrativo - Colégio Dimensão Ativa de Carpina<br></li>
+                        <li><span>2020 - 2021</span><br>Técnico Redes de Computadores - Colégio Dimensão Ativa de Carpina<br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul id="sidemenu">
+                        <li><span>2023 - Atualmente</span><br>Engenharia Elétrica - Universidade Federal Rural de Pernambuco - UACSA<br></li>
+                        <li><span>2023</span><br>Curso - Curso de Python 3 - Udemy<br></li>
+                        <li><span>2023</span><br>Curso - Fundamentos de Excel - Grupo Voitto<br></li>
+                        <li><span>2023</span><br>Curso - Lógica de Programação - Grupo Voitto<br></li>
+                        <li><span>2020</span><br>Técnico Redes de Computadores - ETEMERB<br></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Serviços</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-lightbulb"></i>
+                <h2>Projeto Luminotécnico</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
+                <a href="#">Ler Mais.</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programação</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
+                <a href="#">Ler Mais.</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bolt-lightning"></i>
+                <h2>Projeto Elétrico</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
+                <a href="#">Ler Mais.</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfoli0">
+    <div class="container">
+        <h1 class="sub-title">Projetos</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imagens/dialux 8.jpg">
+                <div class="layer">
+                    <h3>PL Galpao Asa Indústria</h3>
+                    <p>Projeto Luminotécnico para um galpão industrial da Asa Indústria, responsável pela fabricação e distribuição de produtos de limpeza.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imagens/programmer.png">
+                <div class="layer">
+                    <h3>Profissional Website</h3>
+                    <p>Projeto de um Site de portfolio Profissional, para agregar meus projetos, minha formacao academica e tudo relacionado a mim, podemos verificar que o site ainda esta em producao mais em breve estara disponivel.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imagens/projeto elétrico.png">
+                <div class="layer">
+                    <h3>PE Residencial</h3>
+                    <p>Projeto elétrico (Pessoal) de uma residência com 8 cômodos, elaborado em conformidade com a norma ABNT NBR 5410. Inclui a planta baixa, Medidor Bifásico de Instalação no Muro, Lista de Materiais, Diagrama Unifilar e Quadro de Cargas.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Veja mais.</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titles">Meus Contatos</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>danilomarcelons@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+55 (81)99430-9716 </p>
+                <div class="social-contact">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="imagens/CV Danillo Marcello (1) (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="texto" name="Nome" placeholder="Seu Nome" required>
+                    <input type="email" name="Email" placeholder="Seu email" required>
+                    <textarea name="Mensagem" rows="6" placeholder="Sua Mensagem"></textarea>
+                    <button type="submit" class="btn btn2">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Made by Eng. Danillo Gouveia</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
